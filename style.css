@@ -48,3 +48,14 @@ body{
     transform: (-50%);
     font-size: 20px;
 }
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -16px 0 16px;
+
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 2.5px;
+}
