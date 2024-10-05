@@ -9,11 +9,15 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: seashell;
+    background: url(sc.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .wrapper{
     width: 450px;
-    background: mediumspringgreen;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10);
     color: white;
     border-radius: 12px;
     padding: 30px 40px;
